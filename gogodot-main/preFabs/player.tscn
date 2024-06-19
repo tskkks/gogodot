@@ -77,3 +77,5 @@ scale = Vector2(1.12781, 1)
 sprite_frames = SubResource("SpriteFrames_dimbc")
 animation = &"idle"
 autoplay = "idle"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
